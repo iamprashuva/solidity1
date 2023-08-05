@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getRoll",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"pureview.sol": "state"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"pureview.sol": {
+			"keccak256": "0xfd9a9c72c61c9b4bff3b8d89b63466259d39d1fe71d8ec9c17a26a0ebca9fbf4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b6a6c5494440179539acbafcae7d66b33bea7bae27c9e78d5c1a7c8e5d5ba399",
+				"dweb:/ipfs/QmRhavN2NQk4M52eu3WtXfw154yMjPXKsPTM6BFQ4b1KMN"
+			]
+		}
+	},
+	"version": 1
+}
