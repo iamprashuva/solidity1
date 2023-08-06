@@ -9,52 +9,32 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "a",
 						"type": "uint256"
 					}
 				],
-				"name": "arr",
+				"name": "check",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bool",
 						"name": "",
-						"type": "uint256"
+						"type": "bool"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "len",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "popElement",
-				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "value",
+				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "item",
-						"type": "uint256"
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
 					}
 				],
-				"name": "pushElement",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -71,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"darray.sol": "Array"
+			"bool.sol": "Array"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -85,12 +65,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"darray.sol": {
-			"keccak256": "0x58f4fa6d78b5f5bb5f5b9cbd0f90c7291e911f6589feb01dc71d7375c384c919",
+		"bool.sol": {
+			"keccak256": "0xd2d47434e15d568d377349fe35086fc5f9a7733e6703c953ea357cbeea62d622",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://92312bcf7abef54af23f13d0a8d82916a499e759ac71de9e39be8a156363a4e8",
-				"dweb:/ipfs/QmViELUimEcHBwevmiUp28uRPrGYYaqmhoS74MtgmWhuHe"
+				"bzz-raw://a7bf3595065bb05fcdc54b26af97ce1e484baa5375f0d09013d540aea0e86da3",
+				"dweb:/ipfs/QmThieJF9sJbp7Ap6qmoufxSxwzcxmxa1nmxdcdHNjdaAU"
 			]
 		}
 	},
