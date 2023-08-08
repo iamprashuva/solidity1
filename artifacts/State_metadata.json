@@ -7,32 +7,39 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "mem",
-				"outputs": [],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sto",
+				"name": "changeOwner",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "lottery",
+				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "student",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "u1",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "enum State.user",
 						"name": "",
-						"type": "string"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -52,7 +59,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"storage_memory.sol": "Array"
+			"enum.sol": "State"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -66,12 +73,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"storage_memory.sol": {
-			"keccak256": "0x41004d6ce22b8921da0ebe050138266d097fdd430e24010b23f1d1109139a631",
+		"enum.sol": {
+			"keccak256": "0x702fc9a9cd4b0e48296d45581e249ec7b6fec8fa5f2a8195b6f72bcba0c8daf8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://81c0e496b18099e6d7fde6c17eaadb57db27a5888cf11a2a758d10c09abb3f1f",
-				"dweb:/ipfs/QmZutqgoiTWogmuWcrSpvRAozXSeXzE8qicCouAnmsoxW5"
+				"bzz-raw://d127a1962fb911707c3a249cc6625f098fbc0dd4029149c6e0065da413d5fcc9",
+				"dweb:/ipfs/Qmc4uAcnZe3AcYmozW1M4NnWG8Pdu8Uz7CTw4VLci62iV7"
 			]
 		}
 	},
